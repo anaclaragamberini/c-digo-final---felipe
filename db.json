@@ -29,6 +29,14 @@
       "artista": "Beyonce",
       "ano": 2010,
       "id": "SSyTG9LFi-4"
+    },
+    {
+      "nome": "Born in the USA",
+      "artista": "Bruce Springsteen",
+      "ano": 1984,
+      "descricaoArtista": "Fenomenal",
+      "descricaoAlbum": "Grande sucesso",
+      "id": "ItMEdsb8kiw"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
