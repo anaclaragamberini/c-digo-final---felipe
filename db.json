@@ -1,34 +1,32 @@
 {
   "discos": [
     {
+      "nome": "Short n Sweet",
+      "artista": "Sabrina Carpenter",
+      "ano": 2024,
+      "imagem": "https://m.media-amazon.com/images/I/91f6mA+pfML._AC_SL1500_.jpg",
+      "id": "3LjsdHmvF-Q"
+    },
+    {
+      "nome": "LUX",
+      "artista": "Rosalía",
+      "ano": 2025,
+      "imagem": "https://cdn-images.dzcdn.net/images/cover/0dd6cd0e783f1505cd57778953ab77a1/0x1900-000000-80-0-0.jpg",
+      "id": "t9T3aP8uu3o"
+    },
+    {
       "nome": "Thriller",
       "artista": "Michael Jackson",
       "ano": 1982,
-      "id": "1"
+      "imagem": "https://i.redd.it/9rti82wem5ka1.jpg",
+      "id": "E10Ou5U4FgE"
     },
     {
-      "nome": "Nuvens",
-      "artista": "Tim Maia",
-      "ano": 1982,
-      "id": "msJVQvrcH4w"
-    },
-    {
-      "nome": "Purple Rain",
-      "artista": "Prince",
-      "ano": 1984,
-      "id": "M_QfT02dQYw"
-    },
-    {
-      "nome": "Tuskegee",
-      "artista": "Lionel Richie",
-      "ano": 2011,
-      "id": "JpnzOALghjg"
-    },
-    {
-      "nome": "2014",
-      "artista": "Beyonce",
-      "ano": 2010,
-      "id": "SSyTG9LFi-4"
+      "nome": "In The Zone",
+      "artista": "Britney Spears",
+      "ano": 2003,
+      "imagem": "https://cdn-images.dzcdn.net/images/cover/8a2b95cda407d004d829831d20e2e20b/1900x1900-000000-80-0-0.jpg",
+      "id": "LM6Tfc-q768"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

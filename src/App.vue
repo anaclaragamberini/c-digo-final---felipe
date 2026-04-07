@@ -1,7 +1,7 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link>
-    <router-link to="/cadastro">Cadastrar Disco</router-link>
+    <router-link to="/">Início</router-link>
+    <router-link to="/cadastro">Cadastro</router-link>
   </nav>
 
   <div class="container">

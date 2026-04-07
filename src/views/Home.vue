@@ -5,6 +5,13 @@
 
       <ul>
         <li v-for="disco in discos" :key="disco.id">
+
+          <img 
+            v-if="disco.imagem" 
+            :src="disco.imagem" 
+            alt="Capa"
+          />
+
           {{ disco.nome }} - {{ disco.artista }} ({{ disco.ano }})
 
           <div>
@@ -45,27 +52,3 @@ async function excluir(id) {
 
 onMounted(carregar)
 </script>
-
-<style>
-.page {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #f5f5f5;
-}
-
-.box {
-  background: white;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 400px;
-}
-
-li {
-  margin-bottom: 10px;
-  display: flex;
-  justify-content: space-between;
-}
-</style>

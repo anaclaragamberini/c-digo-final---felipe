@@ -6,6 +6,7 @@
       <input v-model="nome" />
       <input v-model="artista" />
       <input v-model="ano" />
+      <input v-model="imagem" />
 
       <button @click="atualizar">Atualizar</button>
     </div>
@@ -23,6 +24,7 @@ const router = useRouter()
 const nome = ref('')
 const artista = ref('')
 const ano = ref('')
+const imagem = ref ('')
 
 const id = route.params.id
 
@@ -31,6 +33,7 @@ async function carregar() {
   nome.value = res.data.nome
   artista.value = res.data.artista
   ano.value = res.data.ano
+  imagem.value = res.data.imagem
 }
 
 async function atualizar() {
@@ -38,6 +41,7 @@ async function atualizar() {
     nome: nome.value,
     artista: artista.value,
     ano: Number(ano.value),
+    imagem: imagem.value,
   })
 
   alert('✏️ Disco atualizado com sucesso!')
