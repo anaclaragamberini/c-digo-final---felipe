@@ -3,7 +3,7 @@
     {
       "nome": "Short n Sweet",
       "artista": "Sabrina Carpenter",
-      "ano": 2024,
+      "ano": 2025,
       "imagem": "https://m.media-amazon.com/images/I/91f6mA+pfML._AC_SL1500_.jpg",
       "id": "3LjsdHmvF-Q"
     },
@@ -27,6 +27,15 @@
       "ano": 2003,
       "imagem": "https://cdn-images.dzcdn.net/images/cover/8a2b95cda407d004d829831d20e2e20b/1900x1900-000000-80-0-0.jpg",
       "id": "LM6Tfc-q768"
+    },
+    {
+      "nome": "One dance",
+      "artista": "Drake",
+      "ano": 2016,
+      "imagem": "https://i.scdn.co/image/ab67616d0000b2739416ed64daf84936d89e671c",
+      "descricaoArtista": "dasda",
+      "descricaoAlbum": "fggggg",
+      "id": "YDxcFiAoycA"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
